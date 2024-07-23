@@ -1,0 +1,88 @@
+/* Home.css */
+.staff {
+    margin-bottom: 30px;
+    text-align: center;
+    background-color: #f9f9f9; /* Adding a light background color to the staff card */
+    border-radius: 10px; /* Rounding the corners of the card */
+    padding: 20px; /* Adding some padding inside the card */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adding a subtle shadow to the card */
+}
+
+.profile-img {
+    width: 150px; /* Set a fixed width */
+    height: 150px; /* Set a fixed height */
+    object-fit: cover; /* Ensure the image covers the area without stretching */
+    border-radius: 50%; /* Making the image circular */
+    display: block;
+    margin: 0 auto;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    gap: 10px; /* Space between buttons */
+    margin-top: 10px;
+}
+
+.btn {
+    padding: 10px 20px; /* Adding padding inside the buttons */
+    border: none; /* Removing the default border */
+    border-radius: 5px; /* Rounding the corners of the buttons */
+    font-size: 14px; /* Increasing the font size */
+    cursor: pointer; /* Changing the cursor to pointer */
+    transition: background-color 0.3s, transform 0.3s; /* Adding transition effects */
+}
+
+.btn-primary {
+    background-color: #007bff; /* Setting primary button background color */
+    color: white; /* Setting primary button text color */
+}
+
+.btn-primary:hover {
+    background-color: #0056b3; /* Changing primary button background color on hover */
+    transform: scale(1.05); /* Slightly enlarging the button on hover */
+}
+
+.btn-secondary {
+    background-color: #6c757d; /* Setting secondary button background color */
+    color: white; /* Setting secondary button text color */
+}
+
+.btn-secondary:hover {
+    background-color: #5a6268; /* Changing secondary button background color on hover */
+    transform: scale(1.05); /* Slightly enlarging the button on hover */
+}
+
+.blur-background {
+    filter: blur(3px); /* Adjust blur intensity as needed */
+    pointer-events: none; /* Prevent clicks on blurred background */
+}
+
+/* Increase table width and make it responsive */
+.table-responsive {
+    overflow-x: auto;
+}
+
+.table-bordered {
+    width: 100%;
+    max-width: none; /* Ensure table can expand to full container width */
+}
+
+/* Ensure modals and tables are responsive */
+.modal-dialog {
+    min-width: 80%; /* Adjust modal width to fit content */
+}
+
+.table {
+    width: auto; /* Allow table to expand based on content */
+    min-width: 100%; /* Ensure table covers the entire container width */
+    table-layout: auto; /* Allow table cells to determine their own width */
+    overflow-x: auto; /* Enable horizontal scrolling on smaller screens */
+}
+
+/* Adjust table cell padding and text alignment if needed */
+.table th,
+.table td {
+    padding: 8px; /* Adjust cell padding for better readability */
+    text-align: center; /* Center-align table text if necessary */
+}

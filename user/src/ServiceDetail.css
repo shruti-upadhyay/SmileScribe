@@ -1,0 +1,66 @@
+.carousel-custom {
+    position: relative;
+    background-color: #f8f9fa; /* Light gray background for visibility */
+  }
+  
+  .carousel-custom .carousel-control-prev,
+  .carousel-custom .carousel-control-next {
+    width: 40px; /* Size of the arrow buttons */
+    height: 40px; /* Size of the arrow buttons */
+    top: 50%; /* Center vertically */
+    transform: translateY(-50%); /* Center vertically */
+    z-index: 1050; /* Ensure arrows are above other elements */
+  }
+  
+  .carousel-custom .carousel-control-prev {
+    left: 15px; /* Ensure it doesn't overlap text */
+  }
+  
+  .carousel-custom .carousel-control-next {
+    right: 15px; /* Ensure it doesn't overlap text */
+  }
+  
+  .carousel-custom .carousel-control-prev-icon,
+  .carousel-custom .carousel-control-next-icon {
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background for visibility */
+    width: 30px; /* Adjust width of the arrow icon */
+    height: 30px; /* Adjust height of the arrow icon */
+  }
+  
+  .carousel-custom .carousel-indicators {
+    position: absolute;
+    bottom: 30px; /* Adjust to avoid overlap with text */
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+  }
+  
+  .carousel-custom .carousel-indicators li {
+    background-color: #000; /* Black color for inactive indicators */
+    border-radius: 50%;
+    width: 10px; /* Size of the indicators */
+    height: 10px; /* Size of the indicators */
+  }
+  
+  .carousel-custom .carousel-indicators .active {
+    background-color: #ffcc00; /* Highlight color for the active indicator */
+  }
+  
+  .carousel-custom .carousel-item {
+    padding: 20px; /* Increase padding to ensure text is not too close to edges */
+    position: relative; /* Ensure proper stacking context for text */
+  }
+  
+  .carousel-custom .carousel-item p {
+    color: #000; /* Black text color for better visibility */
+    font-size: 16px; /* Adjust font size for better fit */
+    margin: 0; /* Ensure no extra margin */
+    z-index: 1050; /* Ensure text is above arrows */
+    text-align: center; /* Center align text */
+    padding-bottom: 50px; /* Add bottom padding to create space between text and indicators/arrows */
+  }
+  

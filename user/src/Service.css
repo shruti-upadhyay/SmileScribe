@@ -1,0 +1,51 @@
+/* Service.css */
+
+.service-card {
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.service-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.card-link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.card-img-top {
+  height: 200px;
+  object-fit: cover;
+}
+
+.card-body {
+  padding: 15px;
+}
+
+.card-title {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin: 0;
+}
+
+.heading-section h2 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem; /* Reduced margin to decrease the gap */
+}
+
+.heading-section p {
+  font-size: 1.1rem;
+  color: #666;
+  margin-bottom: 1rem; /* Adjusted margin to reduce the gap */
+}
+
+section.ftco-section .container {
+  padding-top: 2rem; /* Adjust padding if needed */
+  padding-bottom: 2rem; /* Adjust padding if needed */
+}
+
+.row.justify-content-center.mb-4 {
+  margin-bottom: 0; /* Removed bottom margin to reduce the gap */
+}

@@ -1,0 +1,278 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* App.css */
+
+.ftco-section {
+  padding: 4em 0;
+}
+
+.container {
+  max-width: 1170px;
+  margin: 0 auto;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.col-lg-3, .col-md-6 {
+  flex: 0 0 auto;
+  width: 25%;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.mb-sm-4 {
+  margin-bottom: 1.5rem;
+}
+
+.staff {
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  text-align: center;
+}
+
+.img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile-img {
+  border-radius: 50%;
+  height: 150px;
+  width: 150px;
+  object-fit: cover;
+}
+
+.info {
+  padding: 20px;
+}
+
+.info h3 {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.position {
+  display: block;
+  margin-top: 5px;
+  font-size: 14px;
+  color: #999;
+}
+
+.heading-section {
+  margin-bottom: 30px;
+}
+
+.heading-section h2 {
+  font-size: 28px;
+  color: #000;
+}
+
+.heading-section p {
+  font-size: 14px;
+  color: #999;
+  margin-bottom: 30px;
+}
+
+/* App.css */
+
+.ftco-section {
+  padding: 4em 0;
+}
+
+.container {
+  max-width: 1170px;
+  margin: 0 auto;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.col-lg-3, .col-md-6 {
+  flex: 0 0 auto;
+  width: 25%;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.mb-sm-4 {
+  margin-bottom: 1.5rem;
+}
+
+.staff {
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  text-align: center;
+}
+
+.img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile-img {
+  border-radius: 50%;
+  height: 150px;
+  width: 150px;
+  object-fit: cover;
+}
+
+.info {
+  padding: 20px;
+}
+
+.info h3 {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.position {
+  display: block;
+  margin-top: 5px;
+  font-size: 14px;
+  color: #999;
+}
+
+.heading-section {
+  margin-bottom: 30px;
+}
+
+.heading-section h2 {
+  font-size: 28px;
+  color: #000;
+}
+
+.heading-section p {
+  font-size: 14px;
+  color: #999;
+  margin-bottom: 30px;
+}
+
+.schedule-slot {
+  background: #f9f9f9;
+  padding: 15px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.schedule-slot h4 {
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+.schedule-slot p {
+  margin: 0;
+  font-size: 14px;
+  color: #666;
+}
+
+.modal-open {
+  overflow: hidden;
+  padding-right: 0 !important; /* adjust as per your layout needs */
+}
+
+.modal-backdrop {
+  background-color: rgba(0, 0, 0, 0.5); /* semi-transparent background for modal */
+}
+
+.blur-background {
+  filter: blur(3px); /* Adjust blur intensity as needed */
+  pointer-events: none; /* Prevent clicks on blurred background */
+}
+
+.modal.show {
+  display: block !important; /* Ensure modal is visible */
+}
+
+.modal.fade .modal-dialog {
+  transform: none !important; /* Remove fade effect transform for modal position */
+}
+
+.wrapper {
+  padding: 20px;
+}
+
+.content-wrapper {
+  padding: 20px;
+}
+
+.card {
+  margin-top: 20px;
+}
+
+.card-header {
+  background-color: #007bff;
+  color: white;
+}
+
+.card-title {
+  margin: 0;
+}
+
+.form-group {
+  margin-bottom: 1rem;
+}
+
+.form-check-label {
+  margin-left: 10px;
+}
+
+.card-footer {
+  display: flex;
+  
+  justify-content: flex-end;
+}
+
